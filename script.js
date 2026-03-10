@@ -32,3 +32,16 @@ for (var i = 4; i > -4; i-= 1.5){
     console.log(i);
 }
 
+/*
+4. Sigma ,Write code to calculate the sum of all numbers
+ from 1 to 100 and display the result in the console. 
+ The sum should be equivalent to
+  1 + 2 + 3 + ... + 98 + 99 + 100, which totals 5050. 
+*/
+
+console.log("Sigma code");
+var sum = 0;
+for (var i = 1; i <= 100; i++){
+    sum += i;
+}
+console.log("sum = " + sum);
