@@ -19,3 +19,16 @@ console.log("Numbers divisible by 3 from 100 down to 0 in the console.");
 for (var i = 99; i >= 0; i-= 3){
     console.log(i);
 }
+
+
+/* 
+3. Print the given sequence , Using a loop,
+ write code to print the values in the sequence
+ 4, 2.5, 1, -0.5, -2, -3.5 in the console.
+*/
+
+console.log("the values in the sequence");
+for (var i = 4; i > -4; i-= 1.5){
+    console.log(i);
+}
+
