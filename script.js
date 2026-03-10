@@ -8,3 +8,14 @@ for (var i = 1; i <= 20; i++){
         console.log(i);
     }
 }
+
+/* 
+2. Decreasing multiples of 3 , Using a loop,
+ write code to display all numbers that are
+  divisible by 3 from 100 down to 0 in the console.
+*/
+
+console.log("Numbers divisible by 3 from 100 down to 0 in the console.");
+for (var i = 99; i >= 0; i-= 3){
+    console.log(i);
+}
