@@ -45,3 +45,14 @@ for (var i = 1; i <= 100; i++){
     sum += i;
 }
 console.log("sum = " + sum);
+
+/*
+5. Factorial , Create a program that multiplies all numbers from 1 to 12 and stores the result in a variable called "product". Finally, display the result by using console.log, multiplying 1 * 2 * 3 * ... * 10 * 11 * 12. The final result should be 479001600.
+*/
+
+console.log("Factorial code");
+var factorial = 1;
+for (var i = 1; i <= 12; i++) {
+    factorial *= i;
+}
+console.log("factorial = " + factorial);
